@@ -1,0 +1,241 @@
+{
+    "Bootstrap 4 Starting Boilerplate": {
+        "prefix": "boot",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"${1:Language}\">",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+            "<meta name=\"Description\" content=\"${2:Description}\"/>",
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css\">",
+            "<title>${3:Title}</title>",
+            "</head>",
+            "<body>",
+            "<div>",
+            "<!-- CONTENT GOES HERE -->",
+            "</div>",
+            "<!-- JAVASCRIPT -->",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js\"></script>",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js\"></script>",
+            "</body>",
+            "</html>"
+          ],
+          "description": "Generate a Starting Point" 
+    },
+    "Bootstrap 4 Alert Primary": {
+        "prefix": "boot-alert-primary",
+        "body": [
+            "<div class=\"alert alert-primary\" role=\"alert\">",
+                "<strong>Well done!</strong> You successfully read this important alert message.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Secondary": {
+        "prefix": "boot-alert-secondary",
+        "body": [
+            "<div class=\"alert alert-secondary\" role=\"alert\">",
+                "<strong>Well done!</strong> You successfully read this important alert message.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Success": {
+        "prefix": "boot-alert-success",
+        "body": [
+            "<div class=\"alert alert-success\" role=\"alert\">",
+                "<strong>Well done!</strong> You successfully read this important alert message.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Info": {
+        "prefix": "boot-alert-info",
+        "body": [
+            "<div class=\"alert alert-info\" role=\"alert\">",
+                "<strong>Well done!</strong> You successfully read this important alert message.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Warning": {
+        "prefix": "boot-alert-warning",
+        "body": [
+            "<div class=\"alert alert-warning\" role=\"alert\">",
+                "<strong>Well done!</strong> You successfully read this important alert message.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Danger": {
+        "prefix": "boot-alert-danger",
+        "body": [
+            "<div class=\"alert alert-danger\" role=\"alert\">",
+                "<strong>Well done!</strong> You successfully read this important alert message.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Light": {
+        "prefix": "boot-alert-light",
+        "body": [
+            "<div class=\"alert alert-light\" role=\"alert\">",
+                "<strong>Well done!</strong> You successfully read this important alert message.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Dark": {
+        "prefix": "boot-alert-dark",
+        "body": [
+            "<div class=\"alert alert-dark\" role=\"alert\">",
+                "<strong>Well done!</strong> You successfully read this important alert message.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Link": {
+        "prefix": "boot-alert-link",
+        "body": [
+            "<div class=\"alert alert-danger\" role=\"alert\">",
+                "<strong>Oh snap!</strong>",
+                "<a href=\"#\" class=\"alert-link\">Change a few things up</a>",
+                "and try submitting again.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Dismissable": {
+        "prefix": "boot-alert-dissmiss",
+        "body": [
+            "<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">",
+                "<button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">",
+                "<span aria-hidden=\"true\">&times;</span>",
+                "</button>",
+                "<strong>Holy guacamole!</strong> You should check in on some of those fields below.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Alert Heading": {
+        "prefix": "boot-alert-dissmiss",
+        "body": [
+            "<div class=\"alert alert-success\" role=\"alert\">",
+                "<h4 class=\"alert-heading\">Well done!</h4>",
+                "You successfully read this important alert message.",
+            "</div>"
+          ]
+    },
+    "Bootstrap 4 Badge Pill": {
+        "prefix": "boot-badge-pill",
+        "body": [
+            "<span class=\"badge badge-pill badge-primary\">Secondary</span>"
+          ]
+    },
+    "Bootstrap 4 Badge Primary": {
+        "prefix": "boot-badge-primary",
+        "body": [
+            "<span class=\"badge badge-primary\">Primary</span>"
+          ]
+    },
+    "Bootstrap 4 Badge Secondary": {
+        "prefix": "boot-badge-secondary",
+        "body": [
+            "<span class=\"badge badge-secondary\">Secondary</span>"
+          ]
+    },
+    "Bootstrap 4 Badge Success": {
+        "prefix": "boot-badge-success",
+        "body": [
+            "<span class=\"badge badge-success\">Success</span>"
+          ]
+    },
+    "Bootstrap 4 Badge Info": {
+        "prefix": "boot-badge-info",
+        "body": [
+            "<span class=\"badge badge-info\">Info</span>"
+          ]
+    },
+    "Bootstrap 4 Badge Warning": {
+        "prefix": "boot-badge-warning",
+        "body": [
+            "<span class=\"badge badge-warning\">Warning</span>"
+          ]
+    },
+    "Bootstrap 4 Badge Danger": {
+        "prefix": "boot-badge-danger",
+        "body": [
+            "<span class=\"badge badge-danger\">Danger</span>"
+          ]
+    },
+    "Bootstrap 4 Badge Light": {
+        "prefix": "boot-badge-light",
+        "body": [
+            "<span class=\"badge badge-light\">Light</span>"
+          ]
+    },
+    "Bootstrap 4 Badge Dark": {
+        "prefix": "boot-badge-dark",
+        "body": [
+            "<span class=\"badge badge-dark\">Dark</span>"
+          ]
+    },
+    "Bootstrap 4 Button Primary": {
+        "prefix": "boot-button-primary",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-primary\">Primary</button>"
+          ]
+    },
+    "Bootstrap 4 Button Secondary": {
+        "prefix": "boot-button-secondary",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-secondary\">Secondary</button>"
+          ]
+    },
+    "Bootstrap 4 Button Success": {
+        "prefix": "boot-button-success",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-success\">Success</button>"
+          ]
+    },
+    "Bootstrap 4 Button Info": {
+        "prefix": "boot-button-info",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-info\">Info</button>"
+          ]
+    },
+    "Bootstrap 4 Button Warning": {
+        "prefix": "boot-button-warning",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-warning\">Warning</button>"
+          ]
+    },
+    "Bootstrap 4 Button Danger": {
+        "prefix": "boot-button-danger",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-danger\">Danger</button>"
+          ]
+    },
+    "Bootstrap 4 Button Light": {
+        "prefix": "boot-button-light",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-light\">Light</button>"
+          ]
+    },
+    "Bootstrap 4 Button Dark": {
+        "prefix": "boot-button-dark",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-dark\">Dark</button>"
+          ]
+    },
+    "Bootstrap 4 Button Link": {
+        "prefix": "boot-button-link",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-link\">Link</button>"
+          ]
+    },
+    "Bootstrap 4 Button Outline Primary": {
+        "prefix": "boot-button-out-primary",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-primary\">Primary</button>"
+          ]
+    },
+    "Bootstrap 4 Button Outline Secondary": {
+        "prefix": "boot-button-out-secondary",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-secondary\">Secondary</button>"
+          ]
+    },
+}

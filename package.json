@@ -1,0 +1,50 @@
+{
+    "name": "bootspark",
+    "displayName": "bootspark",
+    "description": "Bootstrap 4 snippet pack",
+    "version": "1.0.0",
+    "publisher": "dk-raw",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dk-raw/bootspark"
+      },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
